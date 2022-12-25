@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+import Certificate from './Certificate';
+import Inputs from './Inputs';
+import Templates from './Templates';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     Hello World
-    </div>
+    <div>
+        <div id="app-header"> Cetificate Maker Using React js </div>
+        <div id="app-container">
+          <Templates/>
+          <Certificate/>
+          <Inputs/>
+        </div>
+   </div>
   );
 }
 
