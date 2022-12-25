@@ -5,6 +5,7 @@ import badge from './assets/badge.jpg'
 import './App.css';
 
 function App() {
+  const [theme, settheme] =useState("rgb(129, 129, 255)"); 
   const [organization, setOrgname] =useState("Academy of Learning"); 
   const [trainingType, settrainingType] =useState("Training"); 
   const [participantName, setparticipantName]= useState("Mr.Rajesh");
@@ -19,7 +20,7 @@ function App() {
     <div>
         <div id="app-header"> Certificate Maker Using React js </div>
         <div id="app-container">        
-        <div id="outer-border" ref={componentRef}>
+        <div id="outer-border" ref={componentRef} style={{backgroundColor:theme}}>
                 <div id="inner-border">
                     <img id="cert-badge" src={badge}/> 
                     <p id="cert-orgName" className="cert-small">{organization}</p>
@@ -31,6 +32,12 @@ function App() {
             </div>
             <div id="app-controls">
             <div id="inputs">
+            <label>Select Theme </label>
+              <select value={theme} onChange={(e) => settheme(e.target.value)}>
+                  <option value="rgb(129, 129, 255)">Cool blue</option>
+                  <option value="#3CB371">Sea Green</option>
+                  <option value="#FFA500">Orange</option>
+              </select>
             <label>Name Of Issuing Organisation</label>
             <input type="text" value={organization} onChange={(e) => setOrgname(e.target.value)}></input>
             <label>Type of Certification </label>
