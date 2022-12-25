@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/certificate-maker/static/css/main.073c9b0a.css",
-    "main.js": "/certificate-maker/static/js/main.88e183e4.js",
+    "main.css": "/certificate-maker/static/css/main.3db16d11.css",
+    "main.js": "/certificate-maker/static/js/main.0ab64024.js",
     "static/js/787.dbc781a4.chunk.js": "/certificate-maker/static/js/787.dbc781a4.chunk.js",
-    "static/media/logo.svg": "/certificate-maker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/certificate-maker/index.html",
-    "main.073c9b0a.css.map": "/certificate-maker/static/css/main.073c9b0a.css.map",
-    "main.88e183e4.js.map": "/certificate-maker/static/js/main.88e183e4.js.map",
+    "main.3db16d11.css.map": "/certificate-maker/static/css/main.3db16d11.css.map",
+    "main.0ab64024.js.map": "/certificate-maker/static/js/main.0ab64024.js.map",
     "787.dbc781a4.chunk.js.map": "/certificate-maker/static/js/787.dbc781a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.88e183e4.js"
+    "static/css/main.3db16d11.css",
+    "static/js/main.0ab64024.js"
   ]
 }
